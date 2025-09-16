@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.geom.*;
 
 /**
- * A circle that can be manipulated and that draws itself on a canvas.
+ * A Circle that can be manipulated and that draws itself on a canvas.
  * 
  * @author  Michael Kšlling and David J. Barnes
  * @version 2016.02.29
@@ -17,7 +17,7 @@ public class Circle
     private boolean isVisible;
     
     /**
-     * Create a new circle at default position with default color.
+     * Create a new Circle at default position with default color.
      */
     public Circle()
     {
@@ -28,7 +28,7 @@ public class Circle
     }
 
     /**
-     * Make this circle visible. If it was already visible, do nothing.
+     * Make this Circle visible. If it was already visible, do nothing.
      */
     public void makeVisible()
     {
@@ -37,7 +37,7 @@ public class Circle
     }
     
     /**
-     * Make this circle invisible. If it was already invisible, do nothing.
+     * Make this Circle invisible. If it was already invisible, do nothing.
      */
     public void makeInvisible()
     {
@@ -46,7 +46,7 @@ public class Circle
     }
     
     /**
-     * Move the circle a few pixels to the right.
+     * Move the Circle a few pixels to the right.
      */
     public void moveRight()
     {
@@ -54,7 +54,7 @@ public class Circle
     }
 
     /**
-     * Move the circle a few pixels to the left.
+     * Move the Circle a few pixels to the left.
      */
     public void moveLeft()
     {
@@ -62,7 +62,7 @@ public class Circle
     }
 
     /**
-     * Move the circle a few pixels up.
+     * Move the Circle a few pixels up.
      */
     public void moveUp()
     {
@@ -70,7 +70,7 @@ public class Circle
     }
 
     /**
-     * Move the circle a few pixels down.
+     * Move the Circle a few pixels down.
      */
     public void moveDown()
     {
@@ -78,7 +78,7 @@ public class Circle
     }
 
     /**
-     * Move the circle horizontally by 'distance' pixels.
+     * Move the Circle horizontally by 'distance' pixels.
      */
     public void moveHorizontal(int distance)
     {
@@ -88,7 +88,7 @@ public class Circle
     }
 
     /**
-     * Move the circle vertically by 'distance' pixels.
+     * Move the Circle vertically by 'distance' pixels.
      */
     public void moveVertical(int distance)
     {
@@ -98,7 +98,7 @@ public class Circle
     }
 
     /**
-     * Slowly move the circle horizontally by 'distance' pixels.
+     * Slowly move the Circle horizontally by 'distance' pixels.
      */
     public void slowMoveHorizontal(int distance)
     {
@@ -122,7 +122,7 @@ public class Circle
     }
 
     /**
-     * Slowly move the circle vertically by 'distance' pixels.
+     * Slowly move the Circle vertically by 'distance' pixels.
      */
     public void slowMoveVertical(int distance)
     {
@@ -166,7 +166,7 @@ public class Circle
     }
 
     /**
-     * Draw the circle with current specifications on screen.
+     * Draw the Circle with current specifications on screen.
      */
     private void draw()
     {
@@ -179,7 +179,7 @@ public class Circle
     }
 
     /**
-     * Erase the circle on screen.
+     * Erase the Circle on screen.
      */
     private void erase()
     {
