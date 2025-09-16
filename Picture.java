@@ -37,26 +37,26 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
-            wall.moveHorizontal(-140);
-            wall.moveVertical(20);
-            wall.changeSize(120);
+            wall.moveHorizontal(-160);
+            wall.moveVertical(40);
+            wall.changeSize(130);
             wall.makeVisible();
             
-            window.changeColor("black");
-            window.moveHorizontal(-120);
-            window.moveVertical(40);
-            window.changeSize(40);
+            window.changeColor("Red");
+            window.moveHorizontal(-180);
+            window.moveVertical(60);
+            window.changeSize(60);
             window.makeVisible();
     
-            roof.changeSize(60, 180);
-            roof.moveHorizontal(20);
-            roof.moveVertical(-60);
+            roof.changeSize(80, 200);
+            roof.moveHorizontal(40);
+            roof.moveVertical(-80);
             roof.makeVisible();
     
             sun.changeColor("yellow");
-            sun.moveHorizontal(100);
-            sun.moveVertical(-40);
-            sun.changeSize(80);
+            sun.moveHorizontal(200);
+            sun.moveVertical(-60);
+            sun.changeSize(90);
             sun.makeVisible();
             
             rain.makeVisible();
